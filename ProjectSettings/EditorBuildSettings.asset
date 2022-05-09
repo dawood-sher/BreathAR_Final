@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BreathARscene.unity
+    guid: 84da31412b642c74e8466660582dca19
+  - enabled: 1
+    path: Assets/Scenes/Scene_Lobby.unity
+    guid: 440fab74dfb736d46908c287bf83005f
+  - enabled: 1
+    path: Assets/Scenes/Scene_PlayerSelection.unity
+    guid: ea015e6ac42fe3a4caeb69f71c131a7b
+  - enabled: 1
+    path: Assets/Scenes/Scene_Loading.unity
+    guid: 943f6139fa75e76479b37f37a963962e
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ea172f2a443359648af4882893a0cb82, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 98ae4a7be1dce1743b6d6953b2605b9d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7d39c2e3c18be7840944fed311587115, type: 2}
